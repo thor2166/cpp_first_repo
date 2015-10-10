@@ -1,12 +1,19 @@
 #include <iostream>
 
+
 int main() {
 
-	int thor_int;
+	int thor_int; //Int er lige tal
 
-	std::cin >> thor_int;
+	float thor_float; //Float er komma tal
 
-	std::cout << "here er dit tal: " << thor_int << " , thor_int fylder " << sizeof(thor_int) << " bits i din computers hukommelse" << std::endl;
+	double thor_double; //Double er komma tal der kan være mindere
+
+	bool thor_boolean; //Boolean fylder 1 bit
+
+	char thor_char = 'f';
+
+	std::cout << thor_char << std::endl;
 
 	system("pause");
 
