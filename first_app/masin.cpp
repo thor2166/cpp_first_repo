@@ -1,3 +1,5 @@
+//DET HER PROGRAM ER SKREVET AF VALDEMAR GRANGE
+
 #include <iostream>
 
 
@@ -14,6 +16,8 @@ int main() {
 	char thor_char = 'f';
 
 	std::cout << thor_char << std::endl;
+
+	//Hej mit navn er valde
 
 	system("pause");
 
