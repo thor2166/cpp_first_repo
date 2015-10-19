@@ -1,25 +1,24 @@
-//DET HER PROGRAM ER SKREVET AF VALDEMAR GRANGE
-
 #include <iostream>
 
-
 int main() {
+	std::cout << "Hello World!"<<std::endl;
 
-	int thor_int; //Int er lige tal
+	int valde;
 
-	float thor_float; //Float er komma tal
+	valde = 1; 
 
-	double thor_double; //Double er komma tal der kan være mindere
+	std::cout << valde << std::endl;
 
-	bool thor_boolean; //Boolean fylder 1 bit
+	if (valde > 17) {
+		std::cout << "You may take your drivers license" << std::endl;
+	}
+	else if (valde < 18) {
+		std::cout << "You may not take your drivers license" << std::endl;
+	}
 
-	char thor_char = 'f';
 
-	std::cout << thor_char << std::endl;
 
-	//Hej mit navn er valde
-
+	// DEFAULT END //
 	system("pause");
-
 	return 0;
 }
